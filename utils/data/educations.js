@@ -1,20 +1,26 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Master Degree",
+    duration: "2023 - 2025",
+    institution: "Bhilai Institute Of Technology Durg",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor Degree",
+    duration: "2020 - 2023",
+    institution: "Kalayan PG College Bhilai Nagar",
   },
   {
     id: 3,
+    title: "Higher Secondary Certificate",
+    duration: "2020",
+    institution: "Govt RSMA H S School Ranitarai Rajnandgaon",
+  },
+  {
+    id: 4,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2018",
+    institution: "Govt RSMA H S School Ranitarai Rajnandgaon",
   }
 ]
