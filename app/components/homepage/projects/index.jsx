@@ -27,7 +27,7 @@ const Projects = () => {
                 style={{ zIndex: 20 + index }}
                 // className="sticky-card w-full mx-auto max-w-8xl sticky"
                 // className="sticky top-28 w-full max-w-6xl mx-auto bg-[#070b22] z-10"
-                className="sticky top-28 w-full max-w-6xl mx-auto bg-[#070b22] z-10 rounded-2xl"
+                className="sticky top-28 w-full max-w-8xl mx-auto bg-[#070b22] z-10 rounded-2xl"
                 // className="w-full max-w-6xl mx-auto bg-[#070b22] rounded-2xl"
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}

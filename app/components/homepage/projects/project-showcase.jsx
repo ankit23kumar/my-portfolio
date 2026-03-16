@@ -6,7 +6,9 @@ const ProjectShowcase = ({ project, index }) => {
   const reverse = index % 2 !== 0;
 
   return (
-    <div className={`grid md:grid-cols-2 gap-10 items-center w-full ${reverse ? "md:flex-row-reverse" : ""}`}>
+    <div 
+    className={`grid md:grid-cols-2 gap-10 items-center w-full ${reverse ? "md:flex-row-reverse" : ""}`}
+    >
       
       {reverse ? (
         <>
