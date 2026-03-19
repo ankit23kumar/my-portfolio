@@ -39,12 +39,19 @@ function AboutSection() {
           </div>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
-          <Image
+          {/* <Image
             src={personalData.profile}
             width={320}
-            height={260}
+            height={320}
             alt="Ankit Kumar"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="h-auto w-full max-w-[320px] rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          /> */}
+          <Image
+            src={personalData.profile}
+            alt="Ankit Kumar"
+            width={320}
+            height={320}
+            className="h-auto w-full max-w-[320px] cursor-pointer rounded-lg grayscale transition-all duration-1000 hover:scale-110 hover:grayscale-0"
           />
         </div>
       </div>

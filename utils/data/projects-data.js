@@ -14,7 +14,7 @@ export const projectsData = [
         tools: ["React", "Django", "Python", "PostgreSQL", "REST API"],
         role: 'Full Stack Developer',
         image:"/png/project1.png",
-        code: '',
+        code: 'https://github.com/ankit23kumar/Syntax-Fission-The-online-forum',
         demo: '',
     },
     {
@@ -30,11 +30,27 @@ export const projectsData = [
         ],
         tools: ["React", "Spring Boot", "Java", "MySQL", "REST API"],
         role: 'Full Stack Developer',
-        image:"/png/project1.png",
-        code: '',
+        image:"/png/project2.png",
+        code: 'https://github.com/ankit23kumar/Panchayat-Citizen',
         demo: '',
     },
-    
+    {
+        id: 3,
+        name: 'Portfolio - Ankit Kumar',
+        description: 'A digital platform enabling citizens to submit service requests to local Panchayat authorities.',
+        keyFeatures: [
+            "Citizens can submit service requests through an online portal",
+            "Digital workflow for communication with Panchayat authorities",
+            "REST APIs built using Spring Boot backend architecture",
+            "MySQL database integration for request management",
+            "Responsive React interface for submitting and tracking requests"
+        ],
+        tools: ["React", "Next.js", "CSS", "JavaScript", "API"],
+        role: 'Full Stack Developer',
+        image:"/png/project2.png",
+        code: 'https://github.com/ankit23kumar/dev-portfolio',
+        demo: '',
+    },
 ];
 
 
